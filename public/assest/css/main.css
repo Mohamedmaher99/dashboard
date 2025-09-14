@@ -1,0 +1,1793 @@
+*{
+    padding:0px;
+    margin:0px
+}
+body{
+    background-color: #f4f4f5 !important;
+}
+
+/*start menu*/
+.menu{
+    width: 270px !important;
+    height: 700px !important;
+    left:15px;
+    position: fixed;
+    overflow: auto;
+    z-index: 2200;
+}
+.change-menu{
+     width: fit-content;
+    height: 500px;
+    position: fixed;
+    overflow: auto;
+    background-color: #fff;
+    padding: 30px 9px;
+    border-radius: 10px;
+
+}
+.menu .titl-img ,.change-menu .titl-img{
+    width: 40px;
+}
+.menu a,.change-menu a{
+    text-decoration: none;
+}
+
+.title-txt{
+    font-weight: 700 !important;
+    font-size: 15px;
+    color: #27272a;
+    text-transform: capitalize;
+    text-decoration: none !important;
+    font-family: "Open Sans";
+}
+.change-menu .title-txt{
+    font-weight: 400 !important;
+    font-size: 13px;
+    color: #27272a;
+    text-transform: capitalize;
+    text-decoration: none !important;
+    font-family: "Open Sans";
+
+}
+.menu-links .link-icon, .documentation .doc-icon {
+    height: 33px;
+    width: 33px;
+    background-color: #fff;
+    border-radius: 9px;
+    display: flex;
+    align-content: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1) ;
+
+}
+.menu .menu-links .ico-n{
+    font-size: 15px;
+    color: #27272a;
+}
+.menu-links .link-txt{
+    color: #27272a;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.account-page h3{
+    font-size: 17px;
+    color:#27272a82;
+    font-family: "Open Sans";
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.menu .documentation, .change-menu .documentation{
+    background-image:url(../img/curved-images/white-curved.jpg) ;
+    height: 200px;
+    background-position: center ;
+    background-size: cover;
+    width: 200px;
+    border-radius: 10px;
+    padding: 0px 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.documentation h3{
+    font-size: 19px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-family: "Open Sans";
+}
+.documentation span{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    font-family: "Open Sans";
+}
+.documentation .btn1{
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+ .btn2{
+    border: none;
+    height: 30px;
+    width: 100%;
+    background-color: #f97316;
+    border-radius: 10px;
+     font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-family: "Open Sans";
+    font-weight: 700;
+    color: #fff;
+}
+.bg-w-hite{
+    background-color:#fff;
+    border-radius: 10px;
+    padding: 5px ;
+    width: 90%;
+}
+.bg-o-range{
+    height: 33px;
+    width: 33px;
+    background-color: #f97316;
+    border-radius: 9px;
+    display: flex;
+    align-content: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1) ;
+}
+.icon-w-hite{
+     font-size: 15px;
+    color:#fff;
+}
+@media only screen and (max-width:992px){
+    .menu ,.change-menu{
+        background-color: #fff !important;
+        height: 98% !important;
+        overflow: visible;
+        padding: 30px;
+        border-radius: 15px;
+        position: fixed;
+        left:15px;
+        z-index: 2600;
+        top: 10px;
+        bottom: 10px;
+        
+    }
+    .margin-md{
+        margin-top: 80px !important;
+    }
+
+}
+
+/*end menu*/
+
+
+/*start nav bar*/
+.nav-bar a{
+    text-decoration: none;
+}
+.nav-bar .page-txt{
+    opacity: 0.5;
+    color: #27272a;
+    font-size: 14px;
+    font-family: "Open Sans"
+}
+.nav-bar .das-txt{
+    color: #27272a;
+    font-size:0.875rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+.nav-bar .das2-txt{
+    font-size: 16px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+}
+.nav-bar .nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar .nav-content input{
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    padding: 0px 20px 0px 15px;
+    border: 1px solid #d2d6da;
+    background-color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-bar .nav-content button{
+    background-color: transparent;
+    border: 1px solid #f97316;
+    height: 30px;
+    padding: 0px 20px 0px 20px ;
+    border-radius: 5px;
+    color: #f97316;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.nav-bar .nav-content a{
+    text-decoration: none;
+    color: #27272aa8;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.nav-bar .sgn-in-txt{
+    font-size: 18px !important;
+     font-family: "Open Sans" !important;
+     text-transform:capitalize !important;
+     font-weight: 900;
+
+}
+.nav-bar .menu-button{
+    border: none !important;
+    background-color: transparent !important;
+    color: black !important;
+    
+}
+.nav-bar .navfixed{
+    background-color: white;
+    z-index: 2800;
+    position: fixed;
+    width: 100%;
+
+}
+@media only screen and (max-width:575px){
+
+    .nav-bar input ,.nav-bar .on-builder{
+        display: none !important;
+    }
+}
+
+
+/*end nav bar*/
+
+/*start footer*/
+.all-footer a{
+    text-decoration: none;
+    color: #27272a;
+     font-size: 17px;
+    font-weight: 800;
+     font-family: "Open Sans";
+     text-transform: capitalize;
+     letter-spacing: 1px;
+}
+/*end footer*/
+/*==========================================*/
+
+/*all page margin*/
+.all-pages{
+    margin-left: 300px;
+    margin-top: 25px;
+}
+@media only screen and (max-width:992px){
+    .all-pages{
+        margin-left:0px;
+    }
+}
+/*=================================================
+
+/*start dashboard page*/
+
+/*start main section*/
+.main-dashboard .user-active{
+    background-color: #f97316;
+    width: 100%;
+    height:180px;
+    border-radius: 15px;
+}
+.main-dashboard .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.main-dashboard .d-flx-txt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.main-dashboard .user-active ,.main-dashboard .click-event ,.main-dashboard .purchases ,.main-dashboard .likes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.main-dashboard h3{
+    font-size: 23px;
+    font-weight: 700;
+     font-family: "Open Sans";
+     color: #fff;
+}
+.main-dashboard span{
+    color: #fff;
+    font-size: 17px;
+     font-family: "Open Sans";
+     font-weight: 500;
+     letter-spacing: 1px;
+     text-transform: capitalize;
+}
+.main-dashboard h4{
+    font-size: 19px;
+    font-weight: 700;
+     font-family: "Open Sans";
+     color: #fff;
+}
+
+.main-dashboard .click-event ,.main-dashboard .purchases ,.main-dashboard .likes{
+    background-color:#27272a;
+    height:180px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.reviews{
+    background-color: #fff;
+    height:382px;
+    border-radius: 12px;
+     display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1) ;
+
+}
+.reviews h3{
+    color: #27272a;
+    font-size: 20px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.reviews .txt-bar{
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.reviews p{
+    font-size: 16px;
+    font-family: "Open Sans";
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.reviews button{
+    font-size: 13px;
+    font-family: "Open Sans";
+    text-transform: capitalize;
+    letter-spacing: 1px;
+} 
+@media only screen and (max-width:992px){
+    .main-dashboard ,.projects, .chart-section,.Artical-section{
+        padding: 0px 10px !important;
+    }
+    
+    
+}
+
+/*end main section*/
+
+/*start projects section*/
+.project,.orde-r{
+     background-color: #fff;
+    height:600px;
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1) ;
+}
+.project h3,.orde-r h3{
+     font-size: 19px;
+    font-weight: 600;
+     font-family: "Open Sans";
+     letter-spacing: 1px;
+     text-transform: capitalize;
+}
+.project span ,.orde-r span{
+     font-size: 14px;
+    font-weight: 400;
+     font-family: "Open Sans";
+}
+.project .th-txt{
+     font-size: 14px;
+    font-weight: 800;
+     font-family: "Open Sans";
+}
+.project .tit-le img{
+    width: 50px;
+    height: 50px;
+}
+.project h4{
+     font-size: 16px;
+    font-weight: 800;
+     font-family: "Open Sans";
+     text-transform: capitalize;
+     letter-spacing: 1px;
+
+}
+.project h5{
+     font-size: 14px;
+    font-weight: 400;
+     font-family: "Open Sans";
+     text-transform: capitalize;
+}
+
+.orde-r .lis-t h5{
+    font-size: 16px;
+    font-weight: 800;
+     font-family: "Open Sans";
+     text-transform: capitalize;
+     letter-spacing: 1px;
+}
+.orde-r .lis-t h6{
+     font-size: 14px;
+    font-weight: 400;
+     font-family: "Open Sans";
+     text-transform: capitalize;
+}
+
+/*end projects section*/
+
+/*start artical section*/
+.Artical-section .built ,.Artical-section .work{
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1) ;
+    height:280px ;
+}
+.Artical-section .im-bg-color{
+    background-color: #f97316;
+    border-radius: 8px;
+}
+.Artical-section .built h4{
+     font-size: 17px;
+    font-weight: 800;
+     font-family: "Open Sans";
+     text-transform: capitalize;
+     letter-spacing: 1px;
+
+}
+.Artical-section .built h2{
+     font-size: 20px;
+    font-weight: 900;
+     font-family: "Open Sans";
+     text-transform: capitalize;
+     letter-spacing: 1px;
+}
+.Artical-section .built p{
+     font-size: 14px;
+    font-weight: 400;
+     font-family: "Open Sans";
+     text-transform: capitalize;
+     letter-spacing: 1px;
+}
+.Artical-section .built a{
+     font-size: 16px;
+    font-weight: 700;
+     font-family: "Open Sans";
+     text-transform: capitalize;
+     letter-spacing: 1px;
+}
+
+.Artical-section .work-bg{
+     background:linear-gradient(to bottom,rgba(0, 0, 0, 0.414)
+     ),url(../img/ivancik.jpg) ;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 7px;
+
+}
+.work h3{
+    font-size: 20px;
+    font-weight: 900;
+     font-family: "Open Sans";
+     text-transform: capitalize;
+     letter-spacing: 1px;
+     color: #fff;
+}
+.work p{
+    font-size: 14px;
+    font-weight: 400;
+     font-family: "Open Sans";
+     text-transform: capitalize;
+     letter-spacing: 1px;
+     color: #fff;
+
+}
+.work a{
+     font-size: 16px;
+    font-weight: 700;
+     font-family: "Open Sans";
+     text-transform: capitalize;
+     letter-spacing: 1px;
+     color: #fff;
+}
+@media only screen and (max-width:992px){
+    .built{
+        display: flex;
+        flex-direction: column;
+    }
+    .Artical-section .built ,.Artical-section .work{
+        height: fit-content;
+    }
+
+}
+
+/*end artical section*/
+
+/*start chart section*/
+.chart-section .bar-chart ,.chart-section .line-chart{
+    background-color: #fff;
+    border-radius: 15px;
+    height: 470px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1) ;
+}
+.chart-section .bar-chart h3,.chart-section .line-chart h3{
+font-size: 20px;
+    font-weight: 900;
+     font-family: "Open Sans";
+     text-transform: capitalize;
+     letter-spacing: 1px;
+}
+.chart-section .bar-chart span,.chart-section .line-chart span{
+    font-size: 15px;
+    font-weight: 800;
+     font-family: "Open Sans";
+     text-transform: capitalize;
+     letter-spacing: 1px;
+
+}
+.chart-section .bar-chart .txt-chart{
+    font-size: 20px;
+    font-weight: 900;
+     font-family: "Open Sans";
+     text-transform: capitalize;
+     letter-spacing: 1px;
+
+}
+.chart-section .bar-chart h5{
+    font-size: 14px;
+    font-weight: 800;
+     font-family: "Open Sans";
+     text-transform: capitalize;
+     letter-spacing: 1px;
+     opacity: 0.5;
+}
+/*end chart section*/
+
+/*end dashboard page*/
+/*********************************************************/
+
+/*start tabie page*/
+/*start authors section*/
+.authors .authors-table h3 ,.authors .project-table h3{
+    font-size: 16px;
+    font-weight: 800;
+     font-family: "Open Sans";
+     text-transform: capitalize;
+     letter-spacing: 1px;
+}
+.authors .authors-table th ,.authors .project-table th{
+    font-size: 14px;
+    font-weight: 400;
+     font-family: "Open Sans";
+     text-transform: capitalize;
+     letter-spacing: 1px;
+     opacity: 0.5;
+}
+.authors .authors-table img ,.authors .project-table img{
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+}
+.authors .authors-table .pers-inf h4 ,.authors .project-table .project-name h4{
+    font-size: 16px;
+    font-weight: 800;
+     font-family: "Open Sans";
+     text-transform: capitalize;
+     letter-spacing: 1px;
+}
+.authors .authors-table .pers-inf span ,.functio-n span{
+    font-size: 14px;
+    font-weight: 400;
+     font-family: "Open Sans";
+     text-transform: capitalize;
+     letter-spacing: 1px;
+     opacity: 0.5;
+}
+.authors .authors-table .functio-n h5 ,.authors .project-table .budget h5{
+    font-size: 15px;
+    font-weight: 500;
+     font-family: "Open Sans";
+     text-transform: capitalize;
+     letter-spacing: 1px;
+     opacity: 0.8;
+}
+.authors-table .status {
+    font-size: 13px;
+    font-weight: 500;
+     font-family: "Open Sans";
+     text-transform: uppercase;
+     
+}
+.authors-table .date{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Open Sans";
+    text-transform: capitalize;
+    opacity: 0.9;
+    
+}
+.authors-table .edit{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-transform: capitalize;
+    opacity: 0.9;
+    
+}
+.project-table .stauts h6{
+    font-size: 14px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     opacity: 0.8;
+
+}
+.project-table .comp-txt span{
+    font-size: 14px;
+
+}
+/*end authors section*/
+/*end tabie page*/
+/*==================================================================*/
+
+/*start billing page*/
+
+/*start main section*/
+.main-billing .visa{
+    background:linear-gradient(to right,rgba(0, 0, 0, 0.586)),url(../img/curved-images/curved14.jpg);
+    height: fit-content;
+    width: 100%;
+    border-radius: 15px;
+}
+.visa h4, .visa span ,.visa h3{
+    color: #fff;
+}
+.visa img{
+    width: 35px;
+    height: 35px;
+}
+.visa h3{
+    font-size: 20px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     opacity: 0.8;
+     font-weight: 800;
+     word-spacing: 5px;
+
+}
+.visa span{
+    font-size: 15px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     opacity: 0.8;
+}
+.visa h4{
+    font-size: 17px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 500;
+}
+.main-billing .salary, .main-billing .paypal{
+    border-radius: 15px;
+}
+.main-billing .salary .shape ,.paypal .shape{
+    width: 60px;
+    height: 60px;
+    background-color: #f97316;
+    border-radius: 10px;
+}
+.salary .slary-txt h4 ,.paypal .pal-txt h4{
+    font-size: 17px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 800;
+
+}
+.salary .slary-txt span,.paypal .pal-txt span{
+    font-size: 12px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+}
+.salary .slary-txt h3 ,.paypal .pal-txt h3{
+    font-size: 20px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 700;
+}
+.payment h3{
+    font-size: 19px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 700;
+}
+.payment button{
+    font-size: 16px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 700;
+
+}
+.payment .content {
+    border-radius: 15px;
+}
+.payment img{
+    width: 30px;
+    height: 30px;
+}
+.payment .mast-card  h4 ,.visa-card h4{
+    font-size: 17px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 700;
+
+}
+.main-billing .invoice{
+    border-radius: 15px;
+}
+.invoice .inv-btn button {
+    border: 1px solid orangered;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 700;
+     color: #f97316;
+}
+.invoice h4{
+    font-size: 17px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 700;
+
+}
+.invoice h3{
+    font-size: 17px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 700;
+
+}
+.invoice .month span{
+     font-size: 14px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 400;
+     opacity: 0.5;
+}
+.invoice h4{
+    font-size: 14px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 400;
+     opacity: 0.8;
+
+}
+.invoice a{
+    font-size: 18px;
+     font-family: "Open Sans";
+     text-transform:uppercase;
+     font-weight: 700;
+     text-decoration: none;
+     color: black;
+     
+}
+@media only screen and (max-width:575px){
+
+
+    .visa ,.salary ,.paypal ,.payment ,.invoic{
+        margin-bottom: 20px;
+    }
+    .main-billing {
+        padding: 0px 20px !important;
+    }
+    .visa-card,.mast-card{
+        width: 100% !important;
+    }
+    .card-visa{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .mast-card {
+        margin-bottom: 10px !important;
+    }
+}
+@media only screen and (min-width:575px) and (max-width:992px){
+    .visa ,.salary ,.paypal ,.payment ,.invoic{
+        margin-bottom: 20px !important;
+    }
+
+}
+/*end main section*/
+
+/*start information section*/
+.info-section .billing-info{
+    border-radius: 15px;
+     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1) ;
+     height: 600px;
+}
+.info-section h3{
+     font-size: 19px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 700;
+
+}
+.member{
+    background-color: #f4f4f5;
+    border-radius: 8px;
+}
+.member h4{
+    font-size: 17px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 600;
+}
+.member span ,.trans-txt span{
+    font-size: 14px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 400;
+     opacity: 0.7;
+}
+.member h5{
+    font-size: 16px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 600;
+}
+.member button{
+    font-size: 15px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 500;
+}
+.Transaction{
+    border-radius: 15px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1) ;
+    height: 600px;
+}
+.Transaction h4{
+    font-size: 16px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 400;
+     opacity: 0.7;
+}
+.trans-btn-red{
+    width: 20px;
+    height: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+.name-trans h4{
+    font-size: 17px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 600;
+     opacity: 1;
+}
+.name-trans span{
+    font-size: 14px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 400;
+     opacity: 0.7;
+
+}
+.value-trans h5{
+    font-size: 16px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 600;
+
+}
+.trans-btn-gren{
+    width: 20px;
+    height: 20px;
+    border: 1px solid green;
+    border-radius: 50%;
+
+}
+.trans-btn-black{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+@media only screen and (max-width:575px){
+    .Transaction ,.billing-info {
+        height: fit-content !important;
+    }
+    .Transaction {
+        margin-top: 25px !important;
+    }
+    .nam-spac{
+        margin-right: 0px !important;
+    }
+}
+@media only screen and (min-width:575px) and (max-width:992px){
+    .Transaction ,.billing-info {
+        height: 700px !important;
+    }
+}
+/*end information section*/
+
+/*end billing page*/
+/*===========================================*/
+
+/*start virtual reality page*/
+
+/*start main section*/
+.Main-virtual{
+    background-image: url(../img/vr-bg.jpg);
+    width: 100%;
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+/*end main section*/
+
+/*start cloud section*/
+.cloud-section .temprutre h2{
+    font-size: 70px;
+     font-family: "Open Sans";
+     text-transform:uppercase;
+     font-weight: 900;
+
+}
+.temprutre span{
+    font-size: 16px;
+     font-family: "Open Sans";
+     text-transform:uppercase;
+     font-weight: 600;
+     opacity: 0.8;
+
+}
+.cloud-section .time h4{
+    font-size: 14px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 600;
+     
+}
+.cloud-section .name{
+    font-size: 14px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 600;
+     
+}
+.cloud-section .work {
+    font-size: 12px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 500;
+     opacity: 0.8;
+
+}
+.cloud-section .to-do-txt{
+     font-size: 16px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 700;
+     color: white;
+
+}
+.cloud-section .items h2{
+    font-size: 30px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 700;
+     color: white;
+}
+.cloud-section .items span{
+    font-size: 16px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 700;
+     color: white;
+}
+.cloud-section .shop-mett h4{
+     font-size: 15px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 500;
+     color: white;
+}
+.cloud-section .emails h4 ,.messagges h4{
+    font-size: 14px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 500;
+     opacity: 0.7;
+}
+.cloud-section .check button{
+     font-size: 14px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 500;
+     opacity: 0.9;
+     border: none;
+}
+.cloud-section .some-kind{
+    background-image: url(../img/curved-images/curved9.jpg);
+    background-size: cover;
+    background-position:  center center;
+}
+.some-kind h3{
+     font-size: 16px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 700;
+     color: white;
+}
+.some-kind span{
+     font-size: 14px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 500;
+     color: white;
+     opacity: 0.8;
+
+}
+.some-kind button{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+@media only screen and (max-width:575px){
+    .cloud-section .tables{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .tem-wid{
+        width: 100% !important;
+    }
+    .works,.todo,.kind{
+        width: 100% !important;
+    }
+    .todo,.kind{
+        margin-top: 20px;
+    }
+    .Main-virtual{
+        height: fit-content;
+    }
+}
+/*end cloud section*/
+/*end virtual  reality page*/
+/*==============================================*/
+
+/*start profile page*/
+
+/*start main profile section*/
+
+.profile{
+    background-color: #f97316;
+    height: 200px;
+    border-radius: 15px;
+     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1) ;
+}
+.profile h3{
+     font-size: 20px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 700;
+     color: white;
+
+}
+.profile span{
+     font-size: 16px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 500;
+     color: white;
+     opacity: 0.9;
+}
+.profile button{
+    border: 1px solid white;
+    color: #fff;
+     font-size: 16px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 500;
+    background-color:rgba(255, 255, 255, 0.1);
+     
+}
+.profile button:hover{
+    background-color: transparent;
+}
+/*end main profile section*/
+
+/*start artical section*/
+.artical-pro-section .platform,.artical-pro-section .infoo{
+    border-radius: 15px;
+     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1) ;
+     height: 400px;
+}
+.artical-pro-section h3{
+    font-size: 18px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 800;
+
+}
+.artical-pro-section h4{
+    font-size: 15px;
+     font-family: "Open Sans";
+     text-transform:uppercase;
+     font-weight: 500;
+     opacity: 0.8;
+}
+.artical-pro-section .on{
+    position:absolute;
+    background-color: black;
+    border-radius: 10px;
+    top:0px;
+    left: 0px ;
+    right:0px;
+    bottom: 0px;
+    width: 40px;
+    height: 20px;
+}
+.on::before{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    right:3px;
+    bottom: 3px;
+}
+.off{
+    position:absolute;
+    background-color:rgba(128, 128, 128, 0.751);
+    border-radius: 10px;
+    top:0px;
+    left: 0px ;
+    right:0px;
+    bottom: 0px;
+    width: 40px;
+    height: 20px;
+}
+.off::before{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    left:3px;
+    bottom: 3px;
+}
+.artical-pro-section .label-text{
+    font-size: 14px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 500;
+     opacity: 0.8;
+}
+.artical-pro-section p{
+    font-size: 14px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 500;
+     opacity: 0.8;
+}
+.artical-pro-section .pesonal-dat h3{
+     font-size: 14px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 800;
+}
+.artical-pro-section .pesonal-dat h4{
+     font-size: 13px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 500;
+     opacity:0.8;
+}
+.artical-pro-section .users h4{
+    font-size: 16px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 700;
+}
+.artical-pro-section .users span{
+    font-size: 13px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 500;
+}
+.artical-pro-section .users button{
+    font-size: 15px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 600;
+     color: #f97316;
+}
+
+/*end artical section*/
+
+/*start profile projects section*/
+.pro-project .projects-pro{
+    border-radius: 15px;
+     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1) ;
+     height: fit-content;
+}
+.pro-project .title h3{
+    font-size: 18px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 800;
+}
+.pro-project .title span{
+    font-size: 14px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 500;
+     opacity: 0.8;
+
+}
+.pro-project h5{
+    font-size: 14px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 500;
+     opacity: 0.8;
+}
+.pro-project a{
+    font-size: 22px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 800;
+     text-decoration: none;
+     color: black;
+     
+}
+.pro-project p{
+    font-size: 14px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 500;
+     opacity: 0.8;
+}
+.pro-project button{
+    font-size: 15px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 600;
+     color: #f97316;
+     border: 1px solid #f97316;
+    
+}
+.pro-project .new-pro{
+    border: 1px solid rgba(0, 0, 0, 0.264);
+}
+ .new-pro button{
+    font-size: 23px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 800;
+     color: #27272a;
+     border: none;
+
+}
+/*end profile projects section*/
+
+/*end profile page*/ 
+/*=================================================*/
+
+/*start sign in page*/
+
+/*start nav section*/
+.sign-nav{
+    position: fixed;
+    top:20px;
+    width: 100%;
+    z-index: 2000;
+    
+}
+.sign-nav .all-nav{
+    border-radius: 30px;
+    transition: height 0.5s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+   
+}
+.all-nav .soft-txt a{
+     font-size: 16px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 700;
+     text-decoration: none;
+     color: black;
+
+}
+.all-nav .pages-links a{
+    font-size: 14px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 500;
+     text-decoration: none;
+     color: black;
+    
+
+}
+.all-nav .builder{
+    background-color: transparent;
+    border: 1px solid #f97316;
+    border-radius: 8px;
+    font-size: 14px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 600;
+     color: #f97316;
+}
+.all-nav .download{
+    background-color: black;
+    color: #fff;
+     border-radius: 8px;
+    font-size: 14px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 600;
+}
+.signup-nav{
+    background-color: transparent !important;
+    transition: height 0.5s ease-in-out ;
+
+}
+.signup-nav .soft-txt{
+     font-size: 16px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 700;
+     text-decoration: none;
+     color: #fff;
+     text-decoration: none;
+
+}
+.signup-nav .pages-links a{
+    font-size: 14px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 500;
+     text-decoration: none;
+     color: #fff;
+}
+.signup-nav .builder{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    border-radius: 8px;
+    font-size: 14px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 600;
+     color:#fff;
+}
+.signup-nav .download{
+    background-color: #fff;
+    color: black;
+     border-radius: 8px;
+    font-size: 14px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 600;
+}
+
+@media only screen and (max-width:992px){
+.soft-txt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.signup-nav{
+background-color: rgba(255, 255, 255, 0.8) !important;
+border-radius: 20px;
+overflow: hidden;
+height: 220px;
+ transition: height 0.5s ease-in-out;
+
+}
+.signup-nav .soft-txt ,.signup-nav .pages-links a{
+    color: black !important;
+}
+.all-nav ,.signup-nav{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-evenly !important;
+    height: 55px;
+}
+.links{
+    display: flex !important;
+    align-items: start;
+    width: 100% !important;
+}
+.pages-links{
+    display: flex !important;
+    flex-direction: column !important;
+    
+}
+.pages-links a{
+    margin: 10px 0px 10px 0px !important;
+}
+  
+}
+
+
+
+/*end nav section*/  
+
+
+/*start header section*/
+.signin-header .bg-header{
+    clip-path: polygon(20% 0 ,100% 0,100% 100%,0% 100%);
+    background-image: url(../img/curved-images/curved-6.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 10px;
+   
+}
+.signin-header .welcome-txt h3{
+     font-size: 30px;
+     font-family: "Open Sans";
+     text-transform:capitalize;
+     font-weight: 900;
+     letter-spacing: 1px;
+     background: linear-gradient(310deg, #4f46e5, rgb(4.8, 145.6, 169.6));
+     color:transparent;
+     background-clip: text;
+ 
+}
+.signin-header .welcome-txt span{
+    font-size: 15px;
+     font-family: "Open Sans";
+     font-weight: 500;
+     opacity: 0.7;
+}
+.signin-header .email-txt ,.signin-header .pass-txt{
+    font-size: 14px;
+     font-family: "Open Sans";
+     font-weight: 800;
+     text-transform: capitalize;
+
+}
+.signin-header h4{
+    font-size: 15px;
+     font-family: "Open Sans";
+     font-weight: 600;
+     text-transform: capitalize;
+     
+}
+.signin-header .input-style{
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    background-color: transparent;
+    font-size: 14px;
+     font-family: "Open Sans";
+     font-weight: 800;
+     text-transform: capitalize;
+}
+.signIn-form .on{
+    position:absolute;
+    background-color: black;
+    border-radius: 10px;
+    top:0px;
+    left: 0px ;
+    right:0px;
+    bottom: 0px;
+    width: 40px;
+    height: 20px;
+}
+.on::before{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    right:3px;
+    bottom: 3px;
+}
+.signIn-form .off{
+    position:absolute;
+    background-color:rgba(128, 128, 128, 0.751);
+    border-radius: 10px;
+    top:0px;
+    left: 0px ;
+    right:0px;
+    bottom: 0px;
+    width: 40px;
+    height: 20px;
+}
+.off::before{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    left:3px;
+    bottom: 3px;
+}
+.signin-header .sumbit-style{
+    background-image: linear-gradient(310deg, #0ea5e9 0%, #06b6d4 100%);
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 14px;
+     font-family: "Open Sans";
+     font-weight: 800;
+     text-transform: capitalize;
+     color: #fff;
+}
+.signin-header .signup-txt span{
+    font-size: 14px;
+     font-family: "Open Sans";
+     font-weight: 600;
+     opacity: 0.7;
+}
+.signin-header .signup-txt a{
+    text-decoration: none;
+     background: linear-gradient(310deg, #4f46e5, rgb(4.8, 145.6, 169.6));
+     color:transparent;
+     background-clip: text;
+      font-size: 17px;
+     font-family: "Open Sans";
+     font-weight: 800;
+}
+@media only screen and (min-width:575px) and (max-width:992px){
+    .signin-header .for-m{
+        width: 80% !important; 
+        margin-top: 90px !important;
+    }
+    .signin-header .bg-header {
+         clip-path: polygon(50% 0 ,100% 0,100% 100%,0% 100%);
+
+    }
+   
+}
+@media only screen and (max-width:575px){
+    .d-xs-style{
+        display: none !important;
+    }
+    .signin-header .for-m{
+        width: 100% !important;
+        margin-top: 100px;
+    }
+}
+/*end header section*/
+
+/*end sign in page*/
+/*==============================================
+/*start sign up page*/
+
+/*start header section*/
+.signup-header{
+    background-image: linear-gradient(to right, #27272a65, #18181b33), url(../img/curved-images/curved14.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    width: 100%;
+}
+.signup-header h1{
+      font-size: 50px;
+     font-family: "Open Sans";
+     font-weight: 900;
+     color: #fff;
+}
+.signup-header span{
+     font-size: 17px;
+     font-family: "Open Sans";
+     font-weight: 500;
+     color: #fff;
+     opacity: 0.9;
+
+}
+/*end header section*/
+
+/*start sign up form*/
+.signup-form .card{
+    width: 350px;
+}
+.facebook,.google,.apple{
+    border: 1px solid rgba(0, 0, 0, 0.332);
+    border-radius: 4px;
+}
+.signup-form h3{
+    font-size: 19px;
+     font-family: "Open Sans";
+     font-weight: 600;
+}
+.signup-form h4{
+    font-size: 17px;
+     font-family: "Open Sans";
+     font-weight: 500;
+
+}
+.signup-form input{
+    border: 1px solid rgba(0, 0, 0, 0.255);
+    border-radius: 7px;
+    width: 100%;
+     font-size: 16px;
+     font-family: "Open Sans";
+     font-weight: 500;
+     text-transform: capitalize;
+}
+.signup-form .agree span{
+    font-size: 14px;
+     font-family: "Open Sans";
+     font-weight: 500;
+     color: black !important;
+}
+.signup-form .already span{
+    font-size: 16px;
+     font-family: "Open Sans";
+     font-weight: 500;
+     opacity: 0.8;
+     color:black;
+}
+.signup-form a{
+    font-size: 18px;
+     font-family: "Open Sans";
+     font-weight: 700;
+     text-decoration: none;
+     color: black;
+}
+/*end sign up form*/
+
+/*end sign up page*/
+/*=================================================*/
+
+/*start control menu*/
+.control-content .control-button{
+    height:25px;
+    width: 60px;
+    background-color: white;
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    border-radius: 50%;
+     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.338), 0 2px 4px -2px rgba(0, 0, 0, 0.344) ;
+}
+.control-content button{
+     font-size: 15px;
+     font-family: "Open Sans";
+     font-weight: 500;
+
+}
+
+.control-content .control-content{
+    position: fixed;
+    height: 100%;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    width: 330px;
+    background-color: #fff;
+}
+.control-content .control-title h2{
+    font-size: 19px;
+     font-family: "Open Sans";
+     font-weight: 600;
+}
+.control-content .control-title h4{
+    font-size: 16px;
+     font-family: "Open Sans";
+     font-weight: 500;
+     opacity: 0.8;
+
+}
+.control-content .side-color h4{
+    font-size: 17px;
+     font-family: "Open Sans";
+     font-weight: 700;
+     text-transform: capitalize;
+}
+.control-content .side-nav h4 ,.control-content .thank-you h4{
+     font-size: 17px;
+     font-family: "Open Sans";
+     font-weight: 700;
+     text-transform: capitalize;
+}
+.control-content .side-nav span{
+    font-size: 14px;
+     font-family: "Open Sans";
+     font-weight: 500;
+     opacity: 0.8;
+}
+.control-content .side-nav button{
+    font-size: 14px;
+     font-family: "Open Sans";
+     font-weight: 500;
+     color: #fff;
+
+}
+.control-content .navbar-fixed-txt{
+    font-size: 17px;
+     font-family: "Open Sans";
+     font-weight: 700;
+     text-transform: capitalize;
+}
+.nav-fixed .on{
+    position:absolute;
+    background-color: black;
+    border-radius: 10px;
+    top:0px;
+    left: 0px ;
+    right:0px;
+    bottom: 0px;
+    width: 40px;
+    height: 20px;
+}
+.on::before{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    right:3px;
+    bottom: 3px;
+}
+.nav-fixed .off{
+    position:absolute;
+    background-color:rgba(128, 128, 128, 0.751);
+    border-radius: 10px;
+    top:0px;
+    left: 0px ;
+    right:0px;
+    bottom: 0px;
+    width: 40px;
+    height: 20px;
+}
+.off::before{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    left:3px;
+    bottom: 3px;
+}
+.control-content .star button{
+    font-size: 17px;
+     font-family: "Open Sans";
+     font-weight: 700;
+     text-transform: capitalize;
+
+}
+
+/*end control menu*/
+
+
